@@ -15,6 +15,7 @@ git subtree [push/pull] --prefix=XXXX [branch]
 ```
 を用いると子リポジトリの変更内容の取り込み，適用が可能
 
-
+## git subtree push
+親リポジトリへはpushされないので親リポジトリでもgit pushしないといけない．commitをし直す必要はなく子リポジトリに行ったコミットをそのままコミットできる
 
 
